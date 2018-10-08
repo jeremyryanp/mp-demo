@@ -10,7 +10,6 @@ public class ResponseUtils {
 	
 	public static Response fixResponse (ResponseBuilder rb) {
 		rb.header("Access-Control-Allow-Origin", HOST_URL);
-		
 		return rb.build();
 	}
 	
